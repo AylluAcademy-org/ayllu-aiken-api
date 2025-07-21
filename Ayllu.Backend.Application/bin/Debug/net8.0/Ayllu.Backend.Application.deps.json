@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ayllu.Backend.Application/1.0.0": {
+        "dependencies": {
+          "Ayllu.Backend.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Ayllu.Backend.Application.dll": {}
+        }
+      },
+      "Ayllu.Backend.Domain/1.0.0": {
+        "runtime": {
+          "Ayllu.Backend.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ayllu.Backend.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ayllu.Backend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Infrastructure.deps.json
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Infrastructure.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Infrastructure.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Application.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Domain.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Application.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\bin\Debug\net8.0\Ayllu.Backend.Domain.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.AssemblyInfo.cs
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Ba.E52A5F52.Up2Date
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\refint\Ayllu.Backend.Infrastructure.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\Ayllu.Backend.Infrastructure.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Infrastructure\obj\Debug\net8.0\ref\Ayllu.Backend.Infrastructure.dll

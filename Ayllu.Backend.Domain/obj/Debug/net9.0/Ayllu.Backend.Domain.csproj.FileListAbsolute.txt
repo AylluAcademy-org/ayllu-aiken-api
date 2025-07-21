@@ -1,0 +1,11 @@
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\bin\Debug\net9.0\Ayllu.Backend.Domain.deps.json
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\bin\Debug\net9.0\Ayllu.Backend.Domain.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\bin\Debug\net9.0\Ayllu.Backend.Domain.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\Ayllu.Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\Ayllu.Backend.Domain.AssemblyInfoInputs.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\Ayllu.Backend.Domain.AssemblyInfo.cs
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\Ayllu.Backend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\Ayllu.Backend.Domain.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\refint\Ayllu.Backend.Domain.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\Ayllu.Backend.Domain.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Domain\obj\Debug\net9.0\ref\Ayllu.Backend.Domain.dll

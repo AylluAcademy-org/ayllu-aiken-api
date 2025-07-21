@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ayllu.Backend.Domain/1.0.0": {
+        "runtime": {
+          "Ayllu.Backend.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ayllu.Backend.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

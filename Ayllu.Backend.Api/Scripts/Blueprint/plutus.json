@@ -1,0 +1,277 @@
+{
+  "preamble": {
+    "title": "ayllu/enrollment",
+    "description": "Aiken contracts for project 'ayllu/enrollment'",
+    "version": "0.0.0",
+    "plutusVersion": "v2",
+    "compiler": {
+      "name": "Aiken",
+      "version": "v1.1.4+79d0e45"
+    },
+    "license": "Apache-2.0"
+  },
+  "validators": [
+    {
+      "title": "delivery_validator.delivery_validator.spend",
+      "datum": {
+        "title": "datum",
+        "schema": {
+          "$ref": "#/definitions/types~1RegistrationDatum"
+        }
+      },
+      "redeemer": {
+        "title": "redeemer",
+        "schema": {
+          "$ref": "#/definitions/types~1RegistrationRedeemer"
+        }
+      },
+      "parameters": [
+        {
+          "title": "param",
+          "schema": {
+            "$ref": "#/definitions/types~1MintParam"
+          }
+        }
+      ],
+      "compiledCode": "5903740100003232323232323222533300332323232325332330093001300a37540042646464a6646601a6002601c6ea801c4c8c8c8c8c8c94ccc058c0640084c8c94ccc054c02400454ccc060c05cdd50038a8010b0a99980a98068008a99980c180b9baa0071500216163015375400c2a666026600e60286ea80044c8c8c8c94ccc068c0740084c8c8c8c8c8c8c8c8c8c8c94ccc088c058c08cdd500b89919191929998149816001099191919191929998161998160072504a2294054ccc0b0ccc0b002d2825114a02a666058666058012941288a501533302c33302c0034a09445280a999816199816000a504a2294052899198008008099129998180008a50132533302e32533302f3375e602660626ea80040144cc048c8cc004004dd5980718191baa00222533303400114bd7009981a9819181b00099801001181b8008048a50303300214a2266006006002606600260146605c60146605c605e60606060606060586ea80a52f5c06605c980103d87a80004bd70299981499b8f375c605c0046eb8c01cc0acdd5014098108008a50375a605a605c002605a0046eb8c0ac00458dd6181500099198008008051129998148008a5eb804c8ccc888c8cc00400400c894ccc0bc004400c4c8cc0c4dd3998189ba900633031302e00133031302f0014bd7019801801981980118188009bae30280013756605200266006006605a0046056002a66604666e3cdd7180098129baa01d375c600e604a6ea8c0a0c094dd500c099baf30043025375403a6008604a6ea80885281181418148008b19981099baf3322323300100100322533302800114c103d87a80001323253330273375e601660526ea80080144c01ccc0ac0092f5c0266008008002605800460540026eb0c098028c008c08cdd5010260103d87a80004a0944dd2a40004604a604c604c002660026eb0c08cc090c090c090c090010dd7180118101baa01d22323300100100322533302400114a0264a66604466e3cdd718138010020a5113300300300130270012302200137566040002604060400046eb0c078004c078c078004c064dd50098b1bad301b001301b002375c6032002602a6ea80045858c05c004c05c008dd7180a800980a801180980098079baa007370e90000b18081808801180780098059baa002370e90010a50300c300d002300b001300b00230090013005375400229309b2b2b9a5573aaae7955cfaba05742ae881",
+      "hash": "77b02302dd816568f9ee25378c1d9afdbc0aae26dcf1b1b36f84adfb"
+    },
+    {
+      "title": "delivery_validator.delivery_validator.else",
+      "redeemer": {
+        "schema": {}
+      },
+      "parameters": [
+        {
+          "title": "param",
+          "schema": {
+            "$ref": "#/definitions/types~1MintParam"
+          }
+        }
+      ],
+      "compiledCode": "5903740100003232323232323222533300332323232325332330093001300a37540042646464a6646601a6002601c6ea801c4c8c8c8c8c8c94ccc058c0640084c8c94ccc054c02400454ccc060c05cdd50038a8010b0a99980a98068008a99980c180b9baa0071500216163015375400c2a666026600e60286ea80044c8c8c8c94ccc068c0740084c8c8c8c8c8c8c8c8c8c8c94ccc088c058c08cdd500b89919191929998149816001099191919191929998161998160072504a2294054ccc0b0ccc0b002d2825114a02a666058666058012941288a501533302c33302c0034a09445280a999816199816000a504a2294052899198008008099129998180008a50132533302e32533302f3375e602660626ea80040144cc048c8cc004004dd5980718191baa00222533303400114bd7009981a9819181b00099801001181b8008048a50303300214a2266006006002606600260146605c60146605c605e60606060606060586ea80a52f5c06605c980103d87a80004bd70299981499b8f375c605c0046eb8c01cc0acdd5014098108008a50375a605a605c002605a0046eb8c0ac00458dd6181500099198008008051129998148008a5eb804c8ccc888c8cc00400400c894ccc0bc004400c4c8cc0c4dd3998189ba900633031302e00133031302f0014bd7019801801981980118188009bae30280013756605200266006006605a0046056002a66604666e3cdd7180098129baa01d375c600e604a6ea8c0a0c094dd500c099baf30043025375403a6008604a6ea80885281181418148008b19981099baf3322323300100100322533302800114c103d87a80001323253330273375e601660526ea80080144c01ccc0ac0092f5c0266008008002605800460540026eb0c098028c008c08cdd5010260103d87a80004a0944dd2a40004604a604c604c002660026eb0c08cc090c090c090c090010dd7180118101baa01d22323300100100322533302400114a0264a66604466e3cdd718138010020a5113300300300130270012302200137566040002604060400046eb0c078004c078c078004c064dd50098b1bad301b001301b002375c6032002602a6ea80045858c05c004c05c008dd7180a800980a801180980098079baa007370e90000b18081808801180780098059baa002370e90010a50300c300d002300b001300b00230090013005375400229309b2b2b9a5573aaae7955cfaba05742ae881",
+      "hash": "77b02302dd816568f9ee25378c1d9afdbc0aae26dcf1b1b36f84adfb"
+    },
+    {
+      "title": "mint_validator.mint_validator.mint",
+      "redeemer": {
+        "title": "_redeemer",
+        "schema": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "parameters": [
+        {
+          "title": "param",
+          "schema": {
+            "$ref": "#/definitions/types~1MintParam"
+          }
+        }
+      ],
+      "compiledCode": "5901bc01000032323232323232225333003323232323253330083370e900018049baa0011323232323232533300e3322323300100100322533301500114a0264a66602666e3cdd7180c0010020a5113300300300130180013758602660286028602860280066eb8c004c040dd50068a99980719980719baf32323300100100622533301400114c0103d87a80001323253330133375e600c602a6ea80080144cdd2a40006602e00497ae0133004004001301800230160013013301430143010375401a98103d87a80004a09444c8c94ccc04cc0580084c8c94ccc048cdc79bae3017002375c602e603060286ea804454ccc048cdc3800a400429445858dd6980b180b800980b0008b1bac3014001323300100100322533301300114bd70099199911191980080080191299980c80088018991980d9ba73301b375200c66036603000266036603200297ae033003003301d002301b001375c60240026eacc04c004cc00c00cc05c008c05400458588c04c004dd5980880098089808980898088011bac300f001300b375400a6eb8c034c028dd50008a50300c300d002300b001300b00230090013005375400229309b2b2b9a5573aaae7955cfaba05742ae881",
+      "hash": "d085be39a416cf716812734c7ce4e2e6bb5010314d816f315a8009f5"
+    },
+    {
+      "title": "mint_validator.mint_validator.else",
+      "redeemer": {
+        "schema": {}
+      },
+      "parameters": [
+        {
+          "title": "param",
+          "schema": {
+            "$ref": "#/definitions/types~1MintParam"
+          }
+        }
+      ],
+      "compiledCode": "5901bc01000032323232323232225333003323232323253330083370e900018049baa0011323232323232533300e3322323300100100322533301500114a0264a66602666e3cdd7180c0010020a5113300300300130180013758602660286028602860280066eb8c004c040dd50068a99980719980719baf32323300100100622533301400114c0103d87a80001323253330133375e600c602a6ea80080144cdd2a40006602e00497ae0133004004001301800230160013013301430143010375401a98103d87a80004a09444c8c94ccc04cc0580084c8c94ccc048cdc79bae3017002375c602e603060286ea804454ccc048cdc3800a400429445858dd6980b180b800980b0008b1bac3014001323300100100322533301300114bd70099199911191980080080191299980c80088018991980d9ba73301b375200c66036603000266036603200297ae033003003301d002301b001375c60240026eacc04c004cc00c00cc05c008c05400458588c04c004dd5980880098089808980898088011bac300f001300b375400a6eb8c034c028dd50008a50300c300d002300b001300b00230090013005375400229309b2b2b9a5573aaae7955cfaba05742ae881",
+      "hash": "d085be39a416cf716812734c7ce4e2e6bb5010314d816f315a8009f5"
+    },
+    {
+      "title": "registration_validator.registration_validator.spend",
+      "datum": {
+        "title": "datum",
+        "schema": {
+          "$ref": "#/definitions/types~1RegistrationDatum"
+        }
+      },
+      "redeemer": {
+        "title": "redeemer",
+        "schema": {
+          "$ref": "#/definitions/types~1RegistrationRedeemer"
+        }
+      },
+      "parameters": [
+        {
+          "title": "param",
+          "schema": {
+            "$ref": "#/definitions/types~1RegParam"
+          }
+        }
+      ],
+      "compiledCode": "5903360100003232323232323222533300332323232325332330093001300a37540042646464a6646601a6002601c6ea801c4c8c8c8c8c8c94ccc058c0640084c8c94ccc054c02400454ccc060c05cdd50038a8010b0a99980a98068008a99980c180b9baa0071500216163015375400c2a666026600e60286ea80044c8c8c8c94ccc068c0740084c8c8c8c8c8c8c8c8c8c8c94ccc088c058c08cdd518138050a9998111998110032504a2294054ccc088ccc08800d2825114a02a666044666044004941288a50153330223330220014a09445280a5114a0a666042602a60446ea800c4cdc4a410125e80264a666044603460466ea8004520001375a604e60486ea8004c94ccc088c068c08cdd50008a6103d87a80001323300100137566050604a6ea8008894ccc09c004530103d87a800013232323253330283372291100002153330283371e9101000021300b3302c375000297ae014c0103d87a8000133006006003375a60520066eb8c09c008c0ac008c0a4004c8cc004004dd599180098129baa3001302537546050604a6ea80148c0a0c0a4004894ccc098004530103d87a800013232323253330273372291100002153330273371e9101000021300a3302b374c00297ae014c0103d87a8000133006006003375660500066eb8c098008c0a8008c0a00045282999810180a18109baa01513371e6eb8c014c088dd5181298111baa01500614a066603e66ebc005300103d87a80004a0944cc88c8cc00400400c894ccc0940045300103d87a80001323253330243375e6012604c6ea80080144c01ccc0a00092f5c02660080080026052004604e0026eb0c08c01cc08cc090014dd2a40006644646600200200644a66604600229404c94ccc084cdc79bae302600200414a2266006006002604c0026eb0c084c088c088c088c088c088c088c088c088014dd71800980f1baa01b23021001375c603e002603e00260346ea8048c064dd50098b1bad301b001301b002375c6032002602a6ea80045858c05c004c05c008dd7180a800980a801180980098079baa007370e90000b18081808801180780098059baa002370e90010a50300c300d002300b001300b00230090013005375400229309b2b2b9a5573aaae7955cfaba05742ae89",
+      "hash": "279bc1ce4b33f871179548578c1bf31781ee49a30083a9a4bdacbed3"
+    },
+    {
+      "title": "registration_validator.registration_validator.else",
+      "redeemer": {
+        "schema": {}
+      },
+      "parameters": [
+        {
+          "title": "param",
+          "schema": {
+            "$ref": "#/definitions/types~1RegParam"
+          }
+        }
+      ],
+      "compiledCode": "5903360100003232323232323222533300332323232325332330093001300a37540042646464a6646601a6002601c6ea801c4c8c8c8c8c8c94ccc058c0640084c8c94ccc054c02400454ccc060c05cdd50038a8010b0a99980a98068008a99980c180b9baa0071500216163015375400c2a666026600e60286ea80044c8c8c8c94ccc068c0740084c8c8c8c8c8c8c8c8c8c8c94ccc088c058c08cdd518138050a9998111998110032504a2294054ccc088ccc08800d2825114a02a666044666044004941288a50153330223330220014a09445280a5114a0a666042602a60446ea800c4cdc4a410125e80264a666044603460466ea8004520001375a604e60486ea8004c94ccc088c068c08cdd50008a6103d87a80001323300100137566050604a6ea8008894ccc09c004530103d87a800013232323253330283372291100002153330283371e9101000021300b3302c375000297ae014c0103d87a8000133006006003375a60520066eb8c09c008c0ac008c0a4004c8cc004004dd599180098129baa3001302537546050604a6ea80148c0a0c0a4004894ccc098004530103d87a800013232323253330273372291100002153330273371e9101000021300a3302b374c00297ae014c0103d87a8000133006006003375660500066eb8c098008c0a8008c0a00045282999810180a18109baa01513371e6eb8c014c088dd5181298111baa01500614a066603e66ebc005300103d87a80004a0944cc88c8cc00400400c894ccc0940045300103d87a80001323253330243375e6012604c6ea80080144c01ccc0a00092f5c02660080080026052004604e0026eb0c08c01cc08cc090014dd2a40006644646600200200644a66604600229404c94ccc084cdc79bae302600200414a2266006006002604c0026eb0c084c088c088c088c088c088c088c088c088014dd71800980f1baa01b23021001375c603e002603e00260346ea8048c064dd50098b1bad301b001301b002375c6032002602a6ea80045858c05c004c05c008dd7180a800980a801180980098079baa007370e90000b18081808801180780098059baa002370e90010a50300c300d002300b001300b00230090013005375400229309b2b2b9a5573aaae7955cfaba05742ae89",
+      "hash": "279bc1ce4b33f871179548578c1bf31781ee49a30083a9a4bdacbed3"
+    }
+  ],
+  "definitions": {
+    "ByteArray": {
+      "title": "ByteArray",
+      "dataType": "bytes"
+    },
+    "Data": {
+      "title": "Data",
+      "description": "Any Plutus data."
+    },
+    "Int": {
+      "dataType": "integer"
+    },
+    "VerificationKeyHash": {
+      "title": "VerificationKeyHash",
+      "dataType": "bytes"
+    },
+    "cardano/transaction/OutputReference": {
+      "title": "OutputReference",
+      "description": "An `OutputReference` is a unique reference to an output on-chain. The `output_index`\n corresponds to the position in the output list of the transaction (identified by its id)\n that produced that output",
+      "anyOf": [
+        {
+          "title": "OutputReference",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "transaction_id",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "output_index",
+              "$ref": "#/definitions/Int"
+            }
+          ]
+        }
+      ]
+    },
+    "types/Action": {
+      "title": "Action",
+      "description": "Actions allowed during registration.\n\n Acciones permitidas durante el registro.",
+      "anyOf": [
+        {
+          "title": "Register",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": []
+        },
+        {
+          "title": "Cancel",
+          "description": "Register a student / Registrar a un estudiante",
+          "dataType": "constructor",
+          "index": 1,
+          "fields": []
+        }
+      ]
+    },
+    "types/MintParam": {
+      "title": "MintParam",
+      "description": "Parameters for the mint and delivery validators.\n Includes the registrar who signs, the token name, the UTxO used as anchor,\n and the public key hash of the student receiving the token.\n\n Parámetros para los validadores de mint y entrega.\n Incluye el registrador que firma, el nombre del token, el UTxO usado como ancla,\n y el hash de clave pública del estudiante que recibirá el token.",
+      "anyOf": [
+        {
+          "title": "MintParam",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "registrar_pkh",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "token_name",
+              "$ref": "#/definitions/ByteArray"
+            },
+            {
+              "title": "utxo_ref",
+              "$ref": "#/definitions/cardano~1transaction~1OutputReference"
+            },
+            {
+              "title": "student_pkh",
+              "$ref": "#/definitions/VerificationKeyHash"
+            }
+          ]
+        }
+      ]
+    },
+    "types/RegParam": {
+      "title": "RegParam",
+      "description": "Parameters for the registration validator.\n Specifies the public key hash of the registrar authorized to approve enrollments.\n\n Parámetros para el validador de registro.\n Especifica el hash de clave pública del registrador autorizado para aprobar inscripciones.",
+      "anyOf": [
+        {
+          "title": "RegParam",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "registrar_pkh",
+              "$ref": "#/definitions/VerificationKeyHash"
+            }
+          ]
+        }
+      ]
+    },
+    "types/RegistrationDatum": {
+      "title": "RegistrationDatum",
+      "description": "Datum associated with a registration UTxO.\n Contains the student's public key hash for identity verification.\n\n Datum asociado a un UTxO de registro.\n Contiene el hash de clave pública del estudiante para verificación de identidad.",
+      "anyOf": [
+        {
+          "title": "RegistrationDatum",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "student_pkh",
+              "$ref": "#/definitions/VerificationKeyHash"
+            }
+          ]
+        }
+      ]
+    },
+    "types/RegistrationRedeemer": {
+      "title": "RegistrationRedeemer",
+      "description": "Redeemer used during the consumption of the registration UTxO.\n Defines the action to perform, the student’s identity, and the UTxO to spend.\n\n Redeemer utilizado durante el gasto del UTxO de registro.\n Define la acción a realizar, la identidad del estudiante y el UTxO a gastar.",
+      "anyOf": [
+        {
+          "title": "RegistrationRedeemer",
+          "dataType": "constructor",
+          "index": 0,
+          "fields": [
+            {
+              "title": "action",
+              "$ref": "#/definitions/types~1Action"
+            },
+            {
+              "title": "student",
+              "$ref": "#/definitions/VerificationKeyHash"
+            },
+            {
+              "title": "unique_utxo",
+              "$ref": "#/definitions/cardano~1transaction~1OutputReference"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
