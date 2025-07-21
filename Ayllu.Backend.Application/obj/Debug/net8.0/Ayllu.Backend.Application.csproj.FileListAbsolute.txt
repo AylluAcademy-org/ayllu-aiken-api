@@ -1,0 +1,15 @@
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\bin\Debug\net8.0\Ayllu.Backend.Application.deps.json
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\bin\Debug\net8.0\Ayllu.Backend.Application.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\bin\Debug\net8.0\Ayllu.Backend.Application.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\bin\Debug\net8.0\Ayllu.Backend.Domain.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\bin\Debug\net8.0\Ayllu.Backend.Domain.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.csproj.AssemblyReference.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.AssemblyInfoInputs.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.AssemblyInfo.cs
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.csproj.CoreCompileInputs.cache
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Ba.3C6B200B.Up2Date
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\refint\Ayllu.Backend.Application.dll
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\Ayllu.Backend.Application.pdb
+C:\Users\neiel\OneDrive\Documentos\Codigo Fuente\ayllu\ayllu-backend\Ayllu.Backend.Application\obj\Debug\net8.0\ref\Ayllu.Backend.Application.dll
